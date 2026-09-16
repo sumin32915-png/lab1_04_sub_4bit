@@ -1,0 +1,8 @@
+[1] PASS 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab1_04_subtractor4\build\sim\run-33f2b3c12916443b92da0be1b3eb67cc\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB1_PASS sub_4bit cases=256
+C:\Users\sumin\lab1_04_subtractor4\sim\tb_sub_4bit.sv:19: $finish called at 2560000 (1ps)
+
+[2] 실패 로그
+FATAL: C:\Users\sumin\lab1_04_subtractor4\sim\tb_sub_4bit.sv:14: FAIL sub_4bit vector=0 expected=00 actual=10
